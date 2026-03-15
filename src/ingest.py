@@ -10,7 +10,7 @@ COMPANIES = {
     "RBC_2025":   {"company": "RBC",      "ticker": "RBC",   "year": 2025},
     "TD_2025":   {"company": "TD Bank",  "ticker": "TD",   "year": 2025},
     "SU_2025":   {"company": "Suncor",   "ticker": "SU",   "year": 2025},
-    "CNR_2025":  {"company": "CN Rail",  "ticker": "CNR",  "year": 2025},
+    "CNR_2024":  {"company": "CN Rail",  "ticker": "CNR",  "year": 2024},
     "BMO_2025":  {"company": "BMO",      "ticker": "BMO",  "year": 2025},
     "CIBC_2025":   {"company": "CIBC",     "ticker": "CIBC",   "year": 2025},
 }
