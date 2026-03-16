@@ -211,7 +211,7 @@ This project covers the full RAG engineering lifecycle:
 
 ## Author
 
-Built by [@nydual](https://github.com/nydual) as part of a data science portfolio.
+Built by [@nydual](https://github.com/nydual) 
 
 ---
 
