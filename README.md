@@ -25,7 +25,7 @@
 
 FinSight is a RAG (Retrieval-Augmented Generation) pipeline that allows users to chat with 7 Canadian public company annual reports. Instead of relying on an LLM's training data, FinSight retrieves relevant passages directly from the source documents and grounds every answer in cited evidence preventing hallucination and ensuring accuracy.
 
-This project demonstrates end-to-end ML engineering: data acquisition, document processing, vector indexing, LLM integration, evaluation, and production deployment.
+This project demonstrates end-to-end ML engineering: data acquisition, document processing, vector indexing, LLM integration, evaluation and production deployment.
 
 ---
 
