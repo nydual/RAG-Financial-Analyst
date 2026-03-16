@@ -3,6 +3,23 @@
 import streamlit as st
 from src.chain import load_vectorstore, build_chain, ask
 
+# app.py
+
+import streamlit as st
+import os
+from pathlib import Path
+
+# ── Rebuild vectorstore if not present ──────────────────────
+def ensure_vectorstore():
+    vectorstore_path = Path("data/vectorstore")
+    if not vectorstore_path.exists() or not any(vectorstore_path.iterdir()):
+        st.info("Building vectorstore for first time — please wait 3-5 minutes...")
+        from src.embed import main as build_embeddings
+        build_embeddings()
+
+ensure_vectorstore()
+
+from src.chain import load_vectorstore, build_chain, ask
 st.set_page_config(
     page_title="FinSight — Canadian Market Intelligence",
     page_icon="◈",
